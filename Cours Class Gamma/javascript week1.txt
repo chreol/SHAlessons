@@ -1,0 +1,44 @@
+revision first:
+nous pouvons modifier  une valeur comme
+fruit = 'orange';
+let fruit = 'apple';
+si lon console.log on aura une erreur
+or si on declare let fruit en premier alors cva changer.
+exercice:
+// Example 1: remove all elements from the fruit array using a for loop. 
+const fruits = ['apple', 'orange', 'banana'];
+
+Allons sur la base de nous nous rappelons que .length sert a selectionnermer tout les elements.
+  resolvons le soucis.
+
+const fruits = ['apple', 'orange', 'banana'];
+ nous devons cnsole.log qui deja a pour role dimprimer le resultat doit noous afficher 
+les differents produits sur chaque nouvelle ligne.
+
+alors 
+const fruits = ['apple', 'orange', 'banana'];
+
+for( let i=0; i<3; i++){
+   console.log(fruits[i]);
+}
+now  if werun the consol log we will have a good result.
+
+let explain what we did.
+first of all
+let i=0 it mean before we start we should give attibut to each time to our console
+1/ i = o its gona take the first element in array who is apple
+2/ i=1  its gona take the second element so orange
+3/ i=2 its gona take banana
+
+secondly: 
+i<3, 3 are number of objects we have, but remember that when we start to count in console we start to 
+0, so here 0 is a first element.
+so to resolve it it take and check its 0 less than 3 if yes  as in the exercice.
+
+
+
+
+ now let talk about function.
+fonction print take all element and all result to print, its mean that he will run all consolelog
+gona be runned, 
+

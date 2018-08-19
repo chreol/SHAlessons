@@ -1,0 +1,13 @@
+Flexbox ici cest une nouveau code plutot simpa avec koi jouer sur notre css:
+
+el permet ici de dire au navigateur de faire bouger les element automatiquement,
+elppermet daligner de star a end, par des regles bien precise, el renferme bien de formes.
+
+allons y en apprendre:
+pour s'amuser voici un lien pour avoir des images avec des tailles c'est bien plus pratique
+je pense: https://placehold.it
+
+ok allons au vif du sujet.
+
+Flex-
+align-

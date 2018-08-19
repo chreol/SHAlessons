@@ -1,0 +1,52 @@
+CLi command line:
+
+Git bash est  comme une commande dos, qui juska ici me permet de creer des dossiers les deplasser renommer et mm les
+exploiter a ma guise, alors comment ca marche.
+
+ici ous travaillons avec git bash, et elle ils nous permet ici de creer des dossier et ou fichiers dans des dossiers.
+ 
+comme fonctionne DDOS git bash, fonctionne de la meme fassons ou presque.
+ ici nous devons aller dans sur notre bureau et creer un dossier puis, entrer et en creer un fichier.
+commencons par aller au bureau
+sur git bash: cd desktop
+noous sommes dans au bureau.
+creeons un dossier sur le bureau cette fois
+sur git bash: mkdir clifolder par exemple puis enter
+pour verifier laction clikons surgit tapons lsm ligne de commande qui te list les dossiers present sur le bureau.
+ a present entrons dans clifolder et creeons un fichier greetings.tx puis regardons ske nous avons a present ds le dossier.
+
+ok simple: sur git tappons cd clifolder pour y entrer,
+creeons le fichier 
+tappons touch greetings.txt puis entrer
+a present pour vous nle contenu tapons ls
+cette ligne de commande nous detail ce quil ya de present dans le dossier clifolder et presentement ya  greetings.txt.
+
+
+pour ecrire dans ce dossier nous pouvons le faire avec echo 
+eg: echo hello >> greetings.txt entrer
+
+attention si nous ecrivons 
+echo hello > greetings.txt
+enfait la vous demandez a git d'effacer le contenu present sur le fichier txt et y mettre juste hello.
+
+ensuite nous voyons la commande cat quui signifi ici imprimer.
+ici nous pouvons donc faire la copie d'un fichier txt ou tout autre je pense, du premier au autres par la suite.
+
+eg: cat greetings.txt >> 1.txt >> 2.txt >> 3.txt >> 4.txt puis entrer a priori sa devrait creer les txt 1 2 3et 4 et faire limprime du contenu de greetings.txt pour les autres.
+aussi noous pouvons biensur voir le listing et contenu de tt ces fichiers txt 
+en executant 
+
+cat greetings.txt  1.txt 2.txt 3.txt 4.txt puis entrer.
+
+
+QUELQUES LIGNES A SAVOIR:
+
+CD: ouvrir un fichier
+MKDIR : creer un fichier
+Ls: lister les fichiers present dans un repertoire.
+MV: modifier un fichier ou dossier en cas soit derreeur ou de fausse manipullation.
+CAT: imprimer un fichier
+-A: selectionner tout les fichier
+files* permet aussi de selectionner tout les dossiers.
+TOUCH: creer des fichier test css html js php et autres encore.
+RM -RF: Qui permet de faire des soustractions ou de simplement supprimer des dossier fichiers ou  tout autres dans nos projets.

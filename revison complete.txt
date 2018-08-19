@@ -1,0 +1,7 @@
+creer un barre de navigation, 
+
+dans css nav p {} avec la fonction displa inline met les element element en horizontal.
+
+cacher un element sur le html tu peux utuliser le ligne de commande diplay:none
+
+

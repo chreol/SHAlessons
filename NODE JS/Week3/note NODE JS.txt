@@ -1,0 +1,43 @@
+what node JS?
+
+Node js is not a langage using javascript to write a server,
+javascrip invairoment, used to show think was keeping to a page.
+server its multifunctional so u can use by different way.
+langage Javascript is used for all this.
+for exemple your frish: u keep think insidem instead of opening
+ u can find a take things inside so ur frish is a server.
+
+
+why node? 
+
+Opportunity to write javascript.
+
+How node work?
+
+Used to show what we have saved first some where.
+Used for server.
+
+(HTTP: Hyper Text Transfer Protocol)
+Hyper is used to transform something to another. plain text to 
+hypper text, 
+Text is a text
+HT a text why link to something
+Transfer is used send from one place to another.
+Protocol is ability to receive and show or display things, it 
+received
+
+HTTP is used to link things and show to people.
+like in news paper we use ht for ads. its used to show to find 
+or to know about something.
+
+
+
+
+app.use is used to load static website or page we have 
+into our website.
+
+app.get is used to root and a callback(who have 3args 
+request response next)
+
+middleware is a function that have access to the request 
+and response and it commonly denoted by a variable name NEXT.

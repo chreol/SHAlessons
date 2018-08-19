@@ -1,0 +1,15 @@
+Flexbox ici cest une nouveau code plutot simpa avec koi jouer sur notre css:
+
+el permet ici de dire au navigateur de faire bouger les element automatiquement,
+elppermet daligner de star a end, par des regles bien precise, el renferme bien de formes.
+
+allons y en apprendre:
+pour s'amuser voici un lien pour avoir des images avec des tailles c'est bien plus pratique
+je pense: https://placehold.it
+
+ok allons au vif du sujet.
+
+1: Dans un cas ou l'on a des images sur notre site et que nous voulons kil soit ordoonnees et reparties sur le site
+la regle display: flex, qui ici qligne les images, mqis qvqnt fqut se rqppeler que pour donner cette regle il est 
+bien mieux d;avoir un containeur et lui donner une classe, dans le classe donc mettre la regle display, biensur ils collent les images les une par rapport aux autres.
+par defaut les element sont par colones, alors pour ;o difier

@@ -1,0 +1,25 @@
+il est mieux de placer le script ala fin de la page juste avant la cloture du body,
+javascript utulise plusieur  type de donne a lexemple 2018 est tyopof "number"
+nous avons en outre string ki sont essentiellement text, 
+puis les booleans qui ont deux valeurs soit yes ou no.
+apres lutulisation de let qui assigne un nom a un element, si tu creais
+un second let il declare error.
+eg: let name = "john" 
+kapre je dise name = "mary"
+la console.log affichera avsc console.log(name) le nom Mary, prck 
+name est change to Mary.
+
+
+pour verifier ceci, sur le mavigateur chrome tu peux ouvrir la console avec crtl + shift +j.
+ex: typeof 2018; donne "number"
+
++ est utulise pour concartener ou jumeler les typeof.
+
+eg: "Hello" + "world";
+conclu: Hello world
+autre si tu ajoutes "1" + "2"; tu auras 12 prckils sont jumeles.
+
+ya aussi le touche alert ki affiche une fenetre pop pop et un bouton ok.
+
+ensuite consol.log aui est une console donc affiche sur le navigateur.
+

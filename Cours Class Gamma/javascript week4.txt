@@ -1,0 +1,29 @@
+innerHTML est utulise pour clean la page web dans la fonction xss attack.
+
+function expression anoonymous
+const sum  = function(x,b){
+ return x+b;
+}
+sum(5,6);
+
+fucntion expression named 
+function expression 
+const sum  = function sum(x,b){
+ return x+b;
+}
+console.log(sum(5,6));
+
+to call a function you can just give a name, and function basecaly work
+up and down.
+
+wr also have function scope
+ const x = 5;
+const p = 6;
+
+function sum(){
+return x+p;
+}
+console.log(sum());
+
+after execute its working!
+

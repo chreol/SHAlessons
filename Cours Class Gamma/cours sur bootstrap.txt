@@ -1,0 +1,24 @@
+Ojourdhui nous parlons de bootrap:
+
+Qui est utuliser pour la decoration et le design des pages,
+elaide aussi a apporter des petites images sur le barre du siteaue vous creez>
+Allons sur le site telecharger.
+Avec bootstrap tu peux ajouter les raccourcis sur tes applications ou tes sites,
+pour la simple raisons qur les concepteurs ont prefait les servicesm nav buton, form, and plus...
+
+Nous pouvons aussi l'utuliser et gagner en temps, et aussi cest possible de modifier, suffit dajouter les class ou id,
+si besoin pour avoir les besoins que l'on veut.
+ Toujours se rapeller pour ramener le bootstrap, il est bon de le relier au fichier HTML
+par le ligne de commande 
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" >
+Avec bootstrapp voous pourrez ajouter modifier supprimer des  nav, barres de recherches bouton de soumission et autres, sur le site internet vous avez toutes ces informations.
+ le site est https://getbootstrap.com/docs/4.1/components/
+
+Possible de modifier besoin d'une id ou dun classe, ou alors changer les details de la classe par defaut sur les class de container, en exemple en salle sa du focntionner,
+alors je me dis si sa fonctionner on ppourra dont utuliser la default classe pour faire varier les choses a notre guise.
+
+
+En gros bootstrap sont des lignes de commande prefabriquees pour aider  le developper a gagner en temps sur ces travaux.
+avec la possibilite de faire des modifications ala guise biensur, comme quoi elle reste une open source.
+
+

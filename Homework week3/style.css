@@ -1,0 +1,72 @@
+body{
+    background-color: 	#E9E9E9;
+    font-family: 'Cute Font', cursive;
+    font-family: 'Gamja Flower', cursive;
+    text-align: center;
+}
+h1, h3, p, h2{
+    text-align: center;
+}
+h1{
+    color: lightblue;
+    border: 3px inset lightgray;
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 35%;
+}
+p:hover{
+    color: whitesmoke;
+}
+h2{
+    font-family: gamja;
+}
+marquee img:hover{
+    color: rgb(187, 44, 44);
+}
+img {
+    max-width: 100%;
+   }
+   #grid-flex {
+    display: flex;
+    flex-flow: row wrap;
+    }
+   .grid-item {
+    width: 25%;
+    border-radius: 10%; 
+    
+   }
+   .grid-item:hover{
+       color: rgb(200, 209, 218);
+       background-color: lightseagreen;
+   }
+li {
+    list-style-type: none;
+}
+
+
+
+@media (max-width: 1380px) {
+    .grid-item:nth-child(1) {
+      width: 50%;
+    }
+    .grid-item {
+      width: 25%;
+    }
+   }
+   @media (max-width: 780px) {
+    .grid-item:nth-child(1),
+    .grid-item:nth-child(2) {
+      width: 50%;
+    }
+    .grid-item {
+      width: 33.33%;
+    }
+   }
+   @media (max-width: 500px) {
+    .grid-item:first-child {
+      width: 100%;
+    }
+    .grid-item {
+      width: 50%;
+    }
+   }

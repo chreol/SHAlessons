@@ -1,0 +1,42 @@
+avec loutil git qui est un vision contron system te permet de garder
+ou faire les backup des travaux, et garde le travail en backup,
+gagne en temps et peut bosser dessus a plusieurs.
+ cest un distrubuteur de version, donc sa la possibilite denvoyer ton travail
+si vous etes en collaboratio, peuvent garder leur travaux tous en mm temps sur son serveur,
+donc possible de retrouver tout les backup des travaux, son server github est ouvert, mais possible de payer pr la sauvegarde
+des travaux pour kelkes dolars.
+il est possible de voir ki a fait kel changement sur le projet, en temps et en heurem puisk les sauvegardes sont fait de temps en temps,
+
+
+comment il travail tu dois creer et initailiser le projet, avec git init,
+qui creait un dossier cache appele .git.
+
+ensuite nous prennons le projet par exemple sur une feuille css aui pour le debut
+est un fichier non trackee.
+ensuite tu peux initailiser le git qui trqck le fichier et le change en tracked file by using git add
+ala suite tu peux git commit il fait le comit et le fichier devient un git deposy.
+
+en somme:
+ - working directory:
+ici cest ton projet donc tu crees tu lenvoi au stage suivant avec git add file.txt
+
+- staging area
+ici il a recu le traite te donne le resultat si tu demandes le statut et tu le git commit file.txt
+
+- git repository:
+avec git statut tu peux savoir exactement a kel niveau ton projet se trouve.
+
+avec git log tu peux doncvoir les changements applikessur le projet.
+
+commande sur git:
+git congig
+pwd me dit ou je suis a present
+touch to create a file
+add to add a file
+git status to see what here now
+git log to see all save on file
+git pull to dowload file from server to ur local
+merge to cobinate files after all commit
+git checkchout to switch branch
+it possible to change branch create a new branch,
+and after all you can merge yourwork or checkout ur work by checking out 

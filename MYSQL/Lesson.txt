@@ -1,0 +1,48 @@
+data are any entry we give or receive to anywhere(any peace of entry)
+
+informations is a couple or more data we collect and collect to buils informations
+
+knowledge is package of information
+
+Blondel + Student + SHA
+
+each of data become informations.
+Blondel is a name
+Student is a JOB
+SHA is a school
+all of them are peace of data.
+
+knowledge is what you know about an information u have.
+
+
+what is database?
+is somewhere we can keep data.
+
+how to open mysql
+
+To connect u have to open mysql workbench
+click on local instance mysql with details root , localhost 3306.
+
+how to check how many databases do we have juste type 
+how databases;
+after select ad use 
+use world;
+
+show tables;
+after show the city
+select * from city;
+select * from country;
+select * from city where countrycode = 'CMR';
+select * from city where countrycode = 'CMR' and population > 500000;
+select * from city where countrycode = 'CMR' and population < 500000;
+select * from city where countrycode = 'dom' and countrycode = 'arg';
+not gona work!!
+select * from city where countrycode = 'CMR' order by population ASC limit 3; =>
+to show 3 smallest city of the country by population.
+select * from city where countrycode = 'CMR' order by population DESC limit 3;  =>
+to show 3 larger city of the country by population.
+
+select city.name,city.population, country.continent from city join country on 
+city.countrycode = country.code where country.name = 'Greece';
+
+

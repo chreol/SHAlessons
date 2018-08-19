@@ -1,0 +1,33 @@
+EN Javascript:
+.Replace
+
+pour remplacer des coma par des space, nous utilisons la fonction
+.replace, it wrtite .replace(/,/g," "), you can add this to a string
+and you will get a result you need.
+
+eg: 
+let thisTest = (This,is,my,first,extra,revision,in,javascript);
+how can we remove the coma'a and read easily.
+just write in our console
+thisTest = myString.replace(/,/g," ");
+done, to check it just console.log and see.
+console.log(thisTest);
+"tahn tahdn" on screen we have a sentense.
+(This is my firstextra revision in javascript)
+
+this was .replace function.
+
+.SPLICE
+This function can add or remove items inside arrays or string.
+let us check on to add and item in the array
+
+let dayOfTheWeek = ['monday', 'tuesday', 'Wednesday', 'friday', 'saturday', 'sunday']
+console.log(dayOfTheWeek);
+["monday", "tuesday", "Wednesday", "friday", "saturday", "sunday"]
+oupps i forgot to write thursday in my array, if i just use 
+.splice ((where to push it), 0, (what to push on that right place));
+
+solve that:
+dayOfTheWeek.splice(3,0,"thursday");
+console.log(dayOfTheWeek);
+["monday", "tuesday", "Wednesday", "thursday", "friday", "saturday", "sunday"]
